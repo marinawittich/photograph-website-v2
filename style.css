@@ -1,0 +1,885 @@
+body{
+    background-color: #DEE5E1;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display:flex;
+    justify-content: center;
+}
+.mainContainer{
+    width: 60%;
+}
+.social-link {
+    align-items: center !important;
+}
+/* banner */
+.content{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./UI/banner.png);
+    background-size: cover;
+    background-position: 70%;
+    color: #edece8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-header {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+.banner-desc {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 80px;
+}
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    width: 225px;
+    height: 60px;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 20px;
+    letter-spacing: 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btnBanner {
+    background-color: #dee5e1;  
+}
+.btnPortfolio {
+     background-color: #90a48e;
+     width: 210px;
+}
+    
+.btnPortfolio:hover {
+    background-color: none;
+    border: 1px solid #90a48e;
+    color: #90a48e;
+    }
+
+
+.btnBanner:hover{
+    background-color: none;
+    border: 1px solid #edece8;
+    color: #edece8;
+}
+/* about section */
+.about-header {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 80px;
+    align-self: flex-start;
+}
+.about-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-left: 2px solid #9b7b5e;
+    margin-left: 20px;
+    padding: 30px;
+}
+.btnAbout {
+    background-color: #90a48e;
+    width: 330px;
+}
+
+.btnAbout:hover {
+    background-color: none;
+    border: 1px solid #90a48e;
+    color: #90a48e;
+}
+.about-position {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* slider */
+.card-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    height: 580px;
+    background-color: #DEE5E1 !important;
+    border: 1px solid #9b7b5e;
+    border-radius: 20px !important; 
+    position: relative;
+    
+}
+.card-slider img {
+    width: 100%;
+    height: 200px;
+}
+.card-slider p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.quote {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 0.3;
+}
+.slider-text {
+    margin-top: 20px;
+}
+.owl-prev{
+    left: -30px;
+}
+.owl-next{
+    right: -30px;
+}
+.owl-prev , .owl-next {
+    position: absolute;
+    top: 50%;
+}
+.owl-prev span , .owl-next span {
+    font-size: 50px;
+    color:#9b7b5e;
+}
+
+/* .navbar{
+    background-color: #edece8;
+    font-family: 'Rajdhani', sans-serif;
+} */
+.slide{
+    display:flex;
+    justify-content: center;
+}
+.header{
+    display:flex;
+    justify-content: center;
+}
+.header h3{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+.text{
+    color:#e0d2d9;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+
+    margin: 10px;
+}
+.text2{
+    color:#e0d2d9;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    margin: 10px;
+    margin-top: 80px;
+    
+}
+.text3{
+    color:#e0d2d9;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    margin: 10px;
+    margin-top: 80px;
+    
+}
+.text1{
+    color:#e0d2d9;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    margin: 10px
+}
+.image{
+    margin: 20px;
+
+}
+.textPosition{
+    display:flex;
+}
+.image1{
+    margin-left: 400px;
+}
+.asv{
+    font-size: 20px;
+    background-color: none !important;
+    margin-bottom: 5px !important;
+    
+} 
+.accordion-item{
+    background-color: #DEE5E1 !important;
+}
+.answer{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif !important;
+    border-radius: 20px !important;
+    background-color: #dee5e1;
+    border: 1px solid #1E2528;
+    
+}
+.accordion-button{
+    background-color: #90a48e !important;
+    color: black !important;
+    border-radius: 10px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    letter-spacing: 2px !important;
+}
+label{
+    font-family: 'Dosis', sans-serif;
+    font-size: 23px;
+    color:#e0d2d9;
+}
+.textInputEmail{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    width: 500px;
+    background-color: #e0d2d9;
+    
+    
+}
+.textInputName{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    width: 500px; 
+    background-color: #e0d2d9;
+    border:none;
+}
+.contactContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.icon{
+    color: #1E2528;
+    margin: 20px;
+}
+.social{
+    display: flex;
+}
+.mailto{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: #e0d2d9;
+    text-decoration: none;
+    font-size: 25px;
+}
+.mailto:hover{
+    color:#9b9b9c;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.textMesaage{
+    margin-left: 13px;
+    color: #e0d2d9;
+    font-size: 20px;
+}
+.messageIntut{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    width: 500px;
+    height: 150px; 
+    background-color: #e0d2d9;
+    border:none;
+}
+.btn{
+    display: flex;
+} 
+.button{
+    flex:1;
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+    background-color: #222224;
+    color: #e0d2d9;
+    font-size: 25px;
+    border:none;
+}
+a{ 
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.gallaryContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.gallaryHeading{
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: white;
+    border-bottom: 3px solid #e0d2d9;
+}
+.navContainer{
+    display: flex;
+    margin-right: 700p;
+}
+.priceContainer{
+    display:flex;
+
+}
+.imageForPrice{
+    margin: 30px;
+}
+h4{
+    font-size: 40px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+.footer-position{
+    display:flex;
+    justify-content: space-evenly;
+}
+.socialFooter{
+    display: flex;
+    justify-content: end;
+}
+.textFooter{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.btnContainer{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.paymentBtn{
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+    background-color: #222224;
+    border-radius: 10px;
+    color: #e0d2d9;
+    font-size: 25px;
+    border:none;
+    width: 300px;
+}
+.navbar-toggler {
+    border: none !important;
+}
+.paymentBtnSilver, .paymentBtnPlatinum {
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+    background-color: #222224;
+    border-radius: 10px;
+    color: #e0d2d9;
+    font-size: 20px;
+    border:none;
+    width: 250px;
+}
+.payment{
+    margin: 0;
+}
+.scrBtn{
+    font-family: 'Poiret One', cursive;
+    color:  #fff; 
+    background-color: rgba(94, 97, 93, 0.6);
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 100px;
+    font-size: 18px;
+    border: none;
+    width: 120px;
+}
+#scrollTop{
+    position: fixed;
+    bottom: 15px;
+    right: 70px;
+    z-index: 9999;
+}
+html{
+    scroll-behavior: smooth;
+}
+.isShowBtn{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 2200px){
+    .mainContainer{
+        width: 70%;
+    }
+}
+@media all and (max-width: 1600px){
+    .mainContainer{
+        width: 100%;
+    }
+    .mySlides{
+        width: 100%;
+        height:400px;
+    }
+    .mainContainer{
+        width: 80%;
+    }
+    .image1{
+        margin-left: 300px;
+        width: 400px;
+    }
+    .image{
+        width: 400px;
+    }
+    .text3{
+        margin-top: 0px;
+}
+.imageForPrice{
+    width: 400px;
+}
+.paymentBtn{
+    width: 200px;
+    font-size: 15px;
+}
+.text, .text1{
+    font-size: 18px;
+}
+.text2{
+    font-size: 23px;
+}
+.image, .image1{
+    width: 300px;
+}
+.image1{
+    margin-left: 170px;
+}
+.asv{
+    font-size: 18px;
+} 
+.answer{
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+
+    background-color: white;
+    color: #222224;
+}
+
+/* 1200px */
+@media all and (max-width: 1200px){
+    .mySlides{
+        width: 100%;
+        height:270px;
+    }
+    .text, .text1{
+        font-size: 18px;
+    }
+    .text2, .text3{
+        font-size: 16px;
+    }
+    .topLink{
+        font-size: 16px;
+    }
+    img{
+        width: 250px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .imageForPrice{
+        width: 300px;
+        align-self: center;
+    }
+    .priceContainer{
+        flex-direction: column;
+    }
+}
+/* 1024px */
+@media all and (max-width: 1024px){
+    .mySlides{
+        width: 100%;
+        height:270px;
+    }
+    .text, .text1{
+        font-size: 18px;
+    }
+    .text2, .text3{
+        font-size: 15px;
+    }
+    .topLink{
+        font-size: 15px;
+    }
+    img{
+        width: 250px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .imageForPrice{
+        width: 300px;
+        align-self: center;
+    }
+    .priceContainer{
+        flex-direction: column;
+    }
+}
+/* 950px */
+@media all and (max-width: 950px){
+    .mySlides{
+        width: 100%;
+        height:250px;
+    }
+    .mainContainer{
+        width: 100%;
+    }
+    .name{
+        font-size: 40px;
+        
+    }
+    .job{
+        font-size: 15px;
+    }
+    .topLink{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    label{
+        font-size: 18px;
+    }
+    .textInputEmail{
+        font-size: 15px;
+        width: 400px;     
+    }
+    .textInputName{
+        font-size: 15px;
+        width: 400px; 
+    }
+    .messageIntut{
+        width: 400px;
+        font-size: 15px;
+    }
+    .mailto{
+        font-size: 18px;
+    }
+    .textMesaage{
+        font-size: 18px;
+    }
+    .button{
+        font-size: 18px;
+    }
+    .gallaryHeading{
+       
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    img{
+        width: 200px;
+    }
+}
+
+}
+/* 850px */
+@media all and (max-width: 850px){
+    .mySlides{
+        width: 100%;
+        height:250px;
+    }
+    .mainContainer{
+        width: 100%;
+    }
+    .name{
+        font-size: 40px;
+        
+    }
+    .job{
+        font-size: 15px;
+    }
+    .topLink{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    label{
+        font-size: 18px;
+    }
+   .textInputEmail{
+        font-size: 15px;
+        width: 400px;     
+    }
+    .textInputName{
+        font-size: 15px;
+        width: 400px; 
+    }
+    .messageIntut{
+        width: 400px;
+        font-size: 15px;
+    }
+    .mailto{
+        font-size: 18px;
+    }
+    .textMesaage{
+        font-size: 18px;
+    }
+    .button{
+        font-size: 18px;
+    }
+    .gallaryHeading{
+       
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    img{
+        width: 200px;
+    }
+}
+
+/* 750px */
+@media all and (max-width: 750px){
+    .navbar{
+        display: flex;
+        align-self: end;
+    }
+}
+
+/* 670px */
+@media all and (max-width: 670px){
+    .column{
+        margin-left: 3px;
+    }
+    img{
+        width: 190px;
+    }
+    .navbar{
+        display: flex;
+        align-self: end;
+    }
+     .icon{
+        margin: 5px;
+     }
+     .textInputName{
+        width: 300px; 
+    }
+     .textInputEmail{
+        width: 300px;     
+    }
+    .textInputName{
+        width: 300px; 
+    }
+    .messageIntut{
+        width: 300px;
+    }
+    
+}
+
+/* 500px */
+@media all and (max-width: 500px){
+    .mySlides{
+        width: 100%;
+        height:120px;
+    }
+    .textPosition{
+        flex-direction: column;
+        
+    }
+    .contactContainer{
+        flex-direction: column;
+    }
+    .testimonialsContainer{
+        flex-direction: column;
+    }
+    .textInputEmail{
+       
+        width: 300px;     
+    }
+    .textInputName{
+     
+        width: 300px; 
+    }
+    .messageIntut{
+        width: 300px;
+        
+    }
+    .messageIntut{
+        width: 300px;
+    }
+    .btn{
+        width: 330px;
+    }
+    .testimonialsContainer{
+        border: 1px solid #d7c3cd;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .mainContainer{
+        width: 90%;
+    }
+    .icon{
+        width: 150px;
+        margin-top: 10px;
+    }
+    .text, .text1{
+        margin-top: 10px;
+    }
+    .text2{
+        margin-top: 10px;
+    }
+    .image1{
+        margin: auto;
+    }
+    img{
+        width: 300px;
+    }
+    .grid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .no-show{
+        display: none;
+    }
+    #scrollTop{
+        right: 70px; 
+    }
+    .scrBtn{
+        font-size: 15px;
+        width: 100px;
+    }
+    .paymentBtn{
+        width: 150px;
+    }
+    .footer-position{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar{
+        display: flex;
+        align-self: end;
+    }
+    .icon{
+        margin: 5px;
+    }
+}
+
+/* 450px */
+@media all and (max-width: 430px){
+    .image, .image1{
+        width: 200px;
+        align-self: center;
+    }
+    .contactContainer{
+        flex-direction: column;
+    }
+    .textInputEmail{
+        width: 300px;     
+    }
+    .textInputName{
+     
+        width: 300px; 
+    }
+    .messageIntut{
+        width: 300px;
+        
+    }
+    .messageIntut{
+        width: 300px;
+    }
+    .btn{
+        width: 325px;
+    }
+    img{
+        width: 300px;
+    }
+    .paymentBtn{
+        width: 140px;
+    }
+    .imageForPrice{
+        margin: 15px;
+    }
+    .imageForPrice{
+        width: 300px;
+    }
+}
+
+/* 350px */
+@media all and (max-width: 355px){
+    .image, .image1{
+        width: 250px;
+    }
+    .textInputEmail{
+       
+        width: 250px;     
+    }
+    .textInputName{
+     
+        width: 250px; 
+    }
+    .messageIntut{
+        width: 250px;
+        
+    }
+    .messageIntut{
+        width: 250px;
+    }
+    .btn{
+        width: 275px;
+    }
+    .paymentBtn{
+        width: 140px;
+    }
+    .imageForPrice{
+        margin: 10px;
+    }
+}
+
+
+/* 300px */
+@media all and (max-width: 300px){
+    .image, .image1{
+        width: 200px;
+    }
+    .textInputEmail{
+        width: 230px;     
+    }
+    .textInputName{
+     
+        width: 230px; 
+    }
+    .messageIntut{
+        width: 230px;
+        
+    }
+    .messageIntut{
+        width: 230px;
+    }
+    .btn{
+        width: 255px;
+    }
+    img{
+        width: 240px;
+    }
+    .paymentBtn{
+        width: 100px;
+    }
+    .imageForPrice{
+        margin: 15px;
+    }
+    .imageForPrice{
+        width: 230px;
+    }
+}
