@@ -1,0 +1,178 @@
+body{
+    background-color: #DEE5E1;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.nav-link {
+    font-family: 'Montserrat', sans-serif !important; 
+}
+.nav-link:hover {
+    color: #456d41 !important; 
+}
+/* banner */
+.banner-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-quote h1{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 90px;
+    letter-spacing: 3px;
+}
+.banner-quote p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.animation1 {
+    /* height: 30vh; */
+    width: 100%;
+}
+/* mission */
+.mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1e2d2;
+    height: 52vh;
+    margin: 0 !important;
+    padding: 50px;
+}
+.mission-cont {
+    display: flex;
+    margin-top: -20px;
+}
+.mission-cont img {
+    height: 52vh;
+}
+.mission h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: white;
+    margin-bottom: 30px;
+}
+.mission p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+/* scroll to top */
+.scrBtn{
+    font-family: 'Rajdhani', sans-serif;
+    color:  #dee5e1; 
+    background-color: rgba(94, 97, 93, 0.6);
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 100px;
+    font-size: 18px;
+    border: none;
+    width: 120px;
+}
+#scrollTop{
+    position: fixed;
+    bottom: 15px;
+    right: 70px;
+    z-index: 9999;
+}
+html{
+    scroll-behavior: smooth;
+}
+.isShowBtn{
+    opacity: 1;
+    transition: 0.4s;
+}
+/* footer */
+h4{
+    font-size: 40px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+.footer-position{
+    display:flex;
+    justify-content: space-evenly;
+}
+.socialFooter{
+    display: flex;
+    justify-content: end;
+}
+.icon{
+    color: #1E2528;
+    margin: 20px;
+}
+.textFooter{
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* 1600px */
+@media all and (max-width: 2200px){ 
+    .banner-quote h1{
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
+}
+/* 1024 */
+@media all and (max-width: 1024px){
+    .logo {
+        width: 60px;
+    }
+.banner-quote h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.banner-quote p {
+    font-size: 15px;
+}
+.mission {
+    height: 400px;
+    padding: 10px;
+}
+
+.mission-cont img{
+    height: 400px;
+}
+.mission h1 {
+    font-size: 30px;
+}
+.mission p {
+    font-size: 14px;
+}
+}
+/* 950px */
+@media all and (max-width: 950px){
+    #scrollTop{
+        right: 15px;
+        bottom: 40px; 
+    }
+    .scrBtn{
+        font-size: 14px;
+        width: 100px;
+    }
+}
+/* 750px */
+@media all and (max-width: 760px){
+    .mission-cont img{
+        display: none;
+    }
+    .mission {
+        height: 500px;
+    }
+}
+/* 450px */
+@media all and (max-width: 430px){
+.banner-quote h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.banner-quote p {
+    font-size: 14px;
+}
+.mission {
+    height: 350px;
+}
+}
