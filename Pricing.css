@@ -74,13 +74,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-/* .price-info .silver-pack-number {
-    font-family: 'Qwitcher Grypen', cursive;
-    font-size: 300px;
-    margin-left: -80px;
-    margin-top: -160px;
-    color: #90a48e;
-} */
 .price-info .silver-header {
     font-weight: 900;
     margin-top: -80px;
@@ -93,9 +86,6 @@ body{
     font-size: 100px;
     margin-top: -40px;
 }
-.number{
-    font-size: 150px;
-}
 .btn-cont {
     display: flex;
     flex-direction: column;
@@ -103,7 +93,6 @@ body{
     align-items: center;
     
 }
-
 .btnAbout {
     background-color: #90a48e;
     width:350px;

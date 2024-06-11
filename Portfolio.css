@@ -43,10 +43,11 @@ body{
 }
 .center-width a{
     font-family: 'Qwitcher Grypen', cursive;
+    font-weight: 900;
 	font-size: 50px;
     color:#1E2528;
     text-decoration:none;
-    border: #1E2528 solid;
+    border: #1E2528 1px solid;
     border-radius: 10px;
     padding: 0 10px 0 10px;;
 }
