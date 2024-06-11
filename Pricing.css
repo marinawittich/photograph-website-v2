@@ -68,19 +68,19 @@ body{
     font-size: 18px;
 }
 .price-info {
-    padding: 40px;
+    padding: 10px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
 }
-.price-info .silver-pack-number {
+/* .price-info .silver-pack-number {
     font-family: 'Qwitcher Grypen', cursive;
     font-size: 300px;
     margin-left: -80px;
     margin-top: -160px;
-    color: #fff;
-}
+    color: #90a48e;
+} */
 .price-info .silver-header {
     font-weight: 900;
     margin-top: -80px;
@@ -88,21 +88,27 @@ body{
     color: #fff;
 }
 .price {
-    color: #4c4f41;
+    color: #90a48e;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 100px;
+    margin-top: -40px;
 }
-.price-cont {
-    border-left: 2px solid #9b7b5e;
-    padding-left: 30px;
+.number{
+    font-size: 150px;
 }
 .btn-cont {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
+
 .btnAbout {
     background-color: #90a48e;
-    width: 230px;
+    width:350px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 .btnAbout:hover {
     background-color: none;
@@ -110,11 +116,11 @@ body{
     color: #90a48e;
 }
 
-.customBtn {
+/* .customBtn {
     background-color: #90a48e;
-    width: 350px;
+    width: 100%;
     cursor: pointer;
-}
+} */
 .btn-container button{
     margin-bottom: 20px;
 }
@@ -252,6 +258,17 @@ h4{
     .logo {
         width: 60px;
     }
+    .silver-pack-number{
+        display: none;
+    }
+    .number{
+        display:inline;
+        font-size: 130px;
+        padding-right: 20px;
+    }
+    hr{
+        display: none;
+    }
 }
 
 @media all and (max-width: 1000px){
@@ -262,6 +279,11 @@ h4{
         border-radius: 20px;
         margin-bottom: 20px;
         padding-top: 20px;
+    }
+    .price{
+
+        font-size: 80px;
+
     }
     #scrollTop{
         right: 15px;
@@ -289,7 +311,18 @@ h4{
         margin-bottom: 20px;
     }
     .silver-header {
-        font-size: 20px;
+        font-size: 15px; 
+    }
+    .number{
+        font-size: 130px;
+        padding-right: 20px;
+    }
+    .price{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    .number{
+        font-size: 80px;
     }
     .btn-cont{
         flex-direction: column;
@@ -313,6 +346,6 @@ h4{
         font-size: 14px;
     }
     img {
-        width: 350px;
+        width: 340px;
     }
 }
